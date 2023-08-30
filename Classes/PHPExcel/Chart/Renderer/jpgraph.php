@@ -1,4 +1,22 @@
-<?php
+<?php /** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
+
+/** @noinspection ALL */
 
 require_once(PHPExcel_Settings::getChartRendererPath().'/jpgraph.php');
 

@@ -1,4 +1,6 @@
-<?php
+<?php /** @noinspection ALL */
+
+/** @noinspection ALL */
 
 /** PHPExcel root directory */
 if (!defined('PHPEXCEL_ROOT')) {

@@ -581,7 +581,8 @@ class PHPExcel_Worksheet_AutoFilter
             sort($dataValues);
         }
 
-        return array_pop(array_slice($dataValues, 0, $ruleValue));
+        $array = array_slice($dataValues, 0, $ruleValue);
+        return array_pop($array);
     }
 
     /**
@@ -717,7 +718,7 @@ class PHPExcel_Worksheet_AutoFilter
                             );
                         } else {
                             //    Date based
-                            if ($dynamicRuleType{0} == 'M' || $dynamicRuleType{0} == 'Q') {
+                            if ($dynamicRuleType[0] == 'M' || $dynamicRuleType[0] == 'Q') {
                                 //    Month or Quarter
                                 sscanf($dynamicRuleType, '%[A-Z]%d', $periodType, $period);
                                 if ($periodType == 'M') {
